@@ -39,7 +39,8 @@ const Tours = ({ setLike, removeTour }) => {
                             Показать все туры
                         </button>
                         <h4>
-                            показываем только лайкнутые туры: {allTours.length} туров
+                            показываем только лайкнутые туры: {allTours.length}{" "}
+                            туров
                         </h4>
                     </div>
                 ) : (
@@ -48,7 +49,7 @@ const Tours = ({ setLike, removeTour }) => {
                             onClick={() => toggleShowLiked()}
                             className="btn"
                         >
-                            Показать только лайкнутные
+                            Показать только лайкнутые
                         </button>
                         <h4>
                             Сейчас показываем все туры: {allTours.length} туров
