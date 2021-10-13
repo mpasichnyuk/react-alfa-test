@@ -25,7 +25,9 @@ const Tours = ({ setLike, removeTour }) => {
     return (
         <section>
             <div className="title">
-                <h4>Михаил Пасичнюк: тестовое задание</h4>
+                <h4>
+                    <em>Михаил Пасичнюк: тестовое задание</em>
+                </h4>
                 <h2>Список горящих путёвок</h2>
                 <div className="underline"></div>
                 {showLiked ? (
@@ -37,8 +39,7 @@ const Tours = ({ setLike, removeTour }) => {
                             Показать все туры
                         </button>
                         <h4>
-                            показываем только лайкнутые туры: {allTours.length}
-                            туров
+                            показываем только лайкнутые туры: {allTours.length} туров
                         </h4>
                     </div>
                 ) : (

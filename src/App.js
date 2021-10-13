@@ -58,7 +58,9 @@ function App() {
         return (
             <main>
                 <div className="title">
-                    <h3>Михаил Пасичнюк: тестовое задание</h3>
+                    <h4>
+                        <em>Михаил Пасичнюк: тестовое задание</em>
+                    </h4>
                     <p>SPA с карточками о горячих путевках</p>
                     <h2>Сейчас список туров пуст</h2>
                     <button className="btn" onClick={() => fetchTours()}>
